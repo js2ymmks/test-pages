@@ -1,3 +1,5 @@
+@import "custom"; // 必ず _sass にある custom.scss を指す
+
 title: "コミュニティガイドライン"
 theme: minima
 markdown: GFM
