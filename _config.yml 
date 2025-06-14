@@ -1,3 +1,4 @@
-markdown: kramdown
-kramdown:
-  input: GFM
+title: "コミュニティガイドライン"
+theme: minima
+markdown: GFM
+permalink: pretty
