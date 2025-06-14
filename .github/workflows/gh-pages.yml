@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # ★これを追加
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
