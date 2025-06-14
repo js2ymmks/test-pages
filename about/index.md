@@ -11,19 +11,19 @@ Text that is not a quote
 
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> 上記のテキストは意味を持たないダミーテキストですが、日本語の文章のスタイルや構造に似ています。お使いの用途に合わせて調整してご利用ください。
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> 上記のテキストは意味を持たないダミーテキストですが、日本語の文章のスタイルや構造に似ています。お使いの用途に合わせて調整してご利用ください。
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> 上記のテキストは意味を持たないダミーテキストですが、日本語の文章のスタイルや構造に似ています。お使いの用途に合わせて調整してご利用ください。
 
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> 上記のテキストは意味を持たないダミーテキストですが、日本語の文章のスタイルや構造に似ています。お使いの用途に合わせて調整してご利用ください。
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> 上記のテキストは意味を持たないダミーテキストですが、日本語の文章のスタイルや構造に似ています。お使いの用途に合わせて調整してご利用ください。
 
 
 - リスト1
