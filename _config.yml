@@ -3,4 +3,4 @@ minima:
   skin: auto
   # カスタムCSSのパス（リポジトリ直下のstyle.cssとする場合）
   custom_css:
-    - /assets/css/style.css
+    - /assets/css/custom.css
