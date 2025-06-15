@@ -1,7 +1,6 @@
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-      css: ["assets/css/style.css"]
-      js: ["assets/js/alert-blocks.js"]
+theme: minima
+minima:
+  skin: auto
+  # カスタムCSSのパス（リポジトリ直下のstyle.cssとする場合）
+  custom_css:
+    - assets/css/style.css
