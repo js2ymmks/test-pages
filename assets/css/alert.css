@@ -1,0 +1,61 @@
+/* alert.css */
+
+/* 全体ベース */
+blockquote {
+  position: relative;
+  padding: 1rem 1rem 1rem 2.5rem;
+  margin: 1rem 0;
+  border-left: 4px solid #ccc;
+  border-radius: 4px;
+  background: #f9f9f9;
+  font-size: 0.95rem;
+}
+
+/* アイコン付きの装飾用 */
+blockquote p::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* NOTE */
+blockquote p:has(strong:contains("[!NOTE]")),
+blockquote p:has(:contains("[!NOTE]")) {
+  border-color: #3178c6;
+  background: #e8f1fb;
+}
+blockquote p:has(:contains("[!NOTE]"))::before {
+  background-image: url('/assets/icons/info.svg');
+}
+
+/* TIP */
+blockquote p:has(:contains("[!TIP]")) {
+  border-color: #1c7c54;
+  background: #e7f8f0;
+}
+blockquote p:has(:contains("[!TIP]"))::before {
+  background-image: url('/assets/icons/tip.svg');
+}
+
+/* WARNING */
+blockquote p:has(:contains("[!WARNING]")) {
+  border-color: #e09f3e;
+  background: #fff8e1;
+}
+blockquote p:has(:contains("[!WARNING]"))::before {
+  background-image: url('/assets/icons/warning.svg');
+}
+
+/* CAUTION */
+blockquote p:has(:contains("[!CAUTION]")) {
+  border-color: #b00020;
+  background: #fbe9e7;
+}
+blockquote p:has(:contains("[!CAUTION]"))::before {
+  background-image: url('/assets/icons/error.svg');
+}
