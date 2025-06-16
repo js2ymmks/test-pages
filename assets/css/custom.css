@@ -51,17 +51,28 @@ blockquote p:has(:contains("[!WARNING]"))::before {
   background-image: url('/assets/icons/warning.svg');
 }
 
-/* CAUTION */
-blockquote p:has(:contains("[!CAUTION]")) {
-  border-color: #b00020;
-  background: #fbe9e7;
-}
-blockquote p:has(:contains("[!CAUTION]"))::before {
-  background-image: url('/assets/icons/error.svg');
+.callout {
+  display: flex;
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 1em;
+  margin: 1em 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
+.callout-icon {
+  font-size: 1.5em;
+  margin-right: 1em;
+  flex-shrink: 0;
 }
+
+.callout-content p:first-child {
+  margin-top: 0;
+}
+
+.callout.note       { border-color: #2b90d9; background-color: #e6f0fa; }
+.callout.tip        { border-color: #43a047; background-color: #eaf6ea; }
+.callout.important  { border-color: #fb8c00; background-color: #fff3e0; }
+.callout.warning,
+.callout.caution    { border-color: #e53935; background-color: #fdecea; }

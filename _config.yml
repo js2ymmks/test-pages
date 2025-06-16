@@ -4,3 +4,5 @@ minima:
   # カスタムCSSのパス（リポジトリ直下のstyle.cssとする場合）
   custom_css:
     - /assets/css/custom.css
+  custom_js:
+    - /assets/css/custom.js
